@@ -4,19 +4,39 @@ function Nav() {
   return (
     <nav className=" text-white fixed bottom-0 left-0 right-0 p-4">
       <div className="flex justify-around space-x-4 flex-wrap">
-        <Link to="/" className="bg-blue-500 text-white p-4 rounded-lg shadow-lg text-center w-24 hover:bg-blue-600">
+        <Link 
+          to="/" 
+          className="bg-cover bg-center p-4 rounded-lg shadow-lg w-24 h-24 flex items-center justify-center text-black" 
+          style={{ backgroundImage: "url('src/assets/beach.jpg')" }}
+        >
           Sea
         </Link>
-        <Link to="/sky" className="bg-blue-300 text-white p-4 rounded-lg shadow-lg text-center w-24 hover:bg-blue-400">
+        <Link 
+          to="/sky" 
+          className="bg-cover bg-center p-4 rounded-lg shadow-lg w-24 h-24 flex items-center justify-center text-white" 
+          style={{ backgroundImage: "url('src/assets/sky.jpg')" }}
+        >
           Sky
         </Link>
-        <Link to="/desert" className="bg-yellow-500 text-white p-4 rounded-lg shadow-lg text-center w-24 hover:bg-yellow-600">
+        <Link 
+          to="/desert" 
+          className="bg-cover bg-center p-4 rounded-lg shadow-lg w-24 h-24 flex items-center justify-center text-white" 
+          style={{ backgroundImage: "url('src/assets/desert.jpg')" }}
+        >
           Desert
         </Link>
-        <Link to="/forest" className="bg-green-500 text-white p-4 rounded-lg shadow-lg text-center w-24 hover:bg-green-600">
+        <Link 
+          to="/forest" 
+          className="bg-cover bg-center p-4 rounded-lg shadow-lg w-24 h-24 flex items-center justify-center text-white" 
+          style={{ backgroundImage: "url('src/assets/forest.jpg')" }}
+        >
           Forest
         </Link>
-        <Link to="/space" className="bg-gray-900 text-white p-4 rounded-lg shadow-lg text-center w-24 hover:bg-gray-800">
+        <Link 
+          to="/space" 
+          className="bg-cover bg-center p-4 rounded-lg shadow-lg w-24 h-24 flex items-center justify-center text-white" 
+          style={{ backgroundImage: "url('src/assets/space.jpg')" }}
+        >
           Space
         </Link>
       </div>
